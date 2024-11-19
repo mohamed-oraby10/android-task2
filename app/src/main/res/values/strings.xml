@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">profile screen</string>
+    <string name="profile_title">Mohamed Oraby</string>
+    <string name="Descreption">Mohamed Oraby Mobile developer student at Fayoum university from mansoura city</string>
+    <string name="age">21 Years</string>
+    <string name="job">Android Developer</string>
+    <string name="address">Mansoura City</string>
+    <string name="back">back icon</string>
+    <string name="profile">profile photo</string>
+    <string name="age_icon">age icon</string>
+    <string name="job_icon">job icon</string>
+    <string name="address_icon">address icon</string>
+    <string name="x_icon">x icon</string>
+    <string name="face_icon">facebook icon</string>
+    <string name="insta_icon">instgram icon</string>
+</resources>

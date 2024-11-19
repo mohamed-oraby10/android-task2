@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/backIcon"
+        android:contentDescription="@string/back"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/profile"
+            android:contentDescription="@string/profile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/profile_title"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/Descreption"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+
+        >
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ageIcon"
+            android:layout_weight="1"
+            android:contentDescription="@string/age_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/age"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        >
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/jobIcon"
+            android:layout_weight="1"
+            android:contentDescription="@string/job_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/job"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        >
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/addressIcon"
+            android:layout_weight="1"
+            android:contentDescription="@string/address_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/address"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="3"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/xIcon"
+            android:contentDescription="@string/x_icon"/>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:src="@drawable/facebookIcon"
+            android:contentDescription="@string/face_icon"/>
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/instaIcon"
+            android:contentDescription="@string/insta_icon"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
